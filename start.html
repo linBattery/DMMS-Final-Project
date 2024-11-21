@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>插入評論</title>
+</head>
+<body>
+    <h2>請輸入評論資料</h2>
+    <form method="POST" action="insert_review.php">
+        <label for="listing_id">飯店 ID (listing_id):</label>
+        <input type="text" id="listing_id" name="listing_id" required><br><br>
+
+        <label for="reviewer_id">使用者密碼 (reviewer_id):</label>
+        <input type="text" id="reviewer_id" name="reviewer_id" required><br><br>
+
+        <label for="reviewer_name">使用者帳號 (reviewer_name):</label>
+        <input type="text" id="reviewer_name" name="reviewer_name" required><br><br>
+
+        <label for="comments">評論 (comments):</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="提交評論">
+    </form>
+</body>
+</html>
