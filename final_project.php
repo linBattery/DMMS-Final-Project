@@ -11,7 +11,7 @@ include 'header.php';
     // Database connection details
     $servername = "localhost";
     $username = "root"; // Replace with your MySQL username
-    $password = "iLOVEanime123"; // Replace with your MySQL password
+    $password = "<pwd>"; // Replace with your MySQL password
     $dbname = "Final_Project";
 
     // Create a connection
